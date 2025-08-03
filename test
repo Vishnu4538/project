@@ -1,0 +1,11 @@
+git merge feature-branch
+# Git throws conflict error
+git status
+# Shows: both modified: app.js
+# Open app.js, resolve conflicts, then:
+git add app.js
+git commit -m "Resolved conflict in app.js"
+💡 Pro Tips- Use a visual tool like VS Code or GitKraken to resolve conflicts more easily.
+- Avoid using git add . unless you're sure all files are ready to be staged.
+- If you want to favor one side during merge:
+
