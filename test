@@ -9,3 +9,23 @@ git commit -m "Resolved conflict in app.js"
 - Avoid using git add . unless you're sure all files are ready to be staged.
 - If you want to favor one side during merge:
 
+
+
+ Common VCS Workflows
+A. Centralized Workflow (CVCS)
+Check out files from the central server.
+
+Edit & commit changes back to the server.
+
+Resolve conflicts if multiple people edit the same file.
+
+B. Feature Branch Workflow (DVCS - Git)
+Clone the repository (git clone).
+
+Create a branch for a new feature (git checkout -b feature-x).
+
+Commit changes locally.
+
+Push to remote & create a Pull Request (PR) for review.
+
+Merge into main after approval.
