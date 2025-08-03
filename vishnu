@@ -32,6 +32,7 @@ Since you're already skilled in SSH key management and scripting:
 - Use .gitignore smartly to avoid committing sensitive files.
 - Practice rebasing and squashing commits for cleaner history.
 Want to turn this into a checklist or flashcard set to match your learning style? I can help with that too!
+jdkjdjjdjdjdjdj
 
 Great choice, Vishnu! Git and GitHub are essential tools for any developer—especially for cloud engineering and collaborative projects. Here's a detailed learning plan with top tutorials that walk you through everything from the basics to advanced workflows.
 
@@ -70,6 +71,7 @@ Want to turn this into a checklist or flashcard set to match your learning style
 
 
 
+<<<<<<< HEAD
 5. Common VCS Workflows
 A. Centralized Workflow (CVCS)
 Check out files from the central server.
@@ -123,3 +125,7 @@ Enterprises (audit trails & compliance).
 Git (DVCS) is the industry standard, but SVN/Perforce (CVCS) still has niche uses.
 
 Would you like a step-by-step Git tutorial or a comparison of GitHub vs. GitLab?
+=======
+
+kdkkdkdkkdkdkdkdkdkkdkdkdkdk
+>>>>>>> parent of f92aa94 (Removed the lines and addednew lines)
