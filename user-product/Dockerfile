@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY app.py .
 
-pip install flask
+RUN pip install flask
 
 CMD ["python","app.py"]
 
