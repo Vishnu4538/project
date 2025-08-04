@@ -1,0 +1,41 @@
+Here’s a clear comparison between git cherry-pick and git merge, Vishnu — both are used to bring changes from one branch to another, but they work very differently:
+
+🆚 Cherry-pick vs Merge
+| Feature | git cherry-pick | git merge | 
+| 🔍 What it does | Applies specific commit(s) to current branch | Combines entire branch history into current branch | 
+| 📜 History impact | Creates new commit(s) with different hashes | Preserves original commit history with a merge commit | 
+| 🎯 Use case | Apply a single fix or feature from another branch | Integrate all changes from a feature or dev branch | 
+| 🔄 Commit relation | Cherry-picked commits are unrelated to original | Merged commits retain parent-child relationship | 
+| ⚠️ Conflict handling | Conflicts handled per commit | Conflicts handled once during merge | 
+| 🧹 Clean history | Can keep history clean if used sparingly | Can clutter history with merge commits if frequent | 
+| 🔄 Reusability | Good for backporting or hotfixes | Best for full feature integration | 
+
+
+
+🧪 Example
+🔸 Cherry-pick
+git switch main
+git cherry-pick a1b2c3d
+
+
+➡️ Applies commit a1b2c3d from another branch to main.
+🔸 Merge
+git switch main
+git merge feature-branch
+
+
+➡️ Brings all commits from feature-branch into main.
+
+🧠 When to Use
+- ✅ Use cherry-pick when:
+- You want just one commit (e.g., a bug fix or small feature)
+- You’re backporting changes to an older branch
+- You want to avoid merging unrelated history
+- ✅ Use merge when:
+- You’re ready to integrate a full feature branch
+- You want to preserve commit history
+- You’re working in a collaborative workflow
+
+For deeper insights, check out this Stack Overflow explanation or this CodeProject tutorial.
+Want to simulate both in a test repo and see how the history looks? I can walk you through it.
+
